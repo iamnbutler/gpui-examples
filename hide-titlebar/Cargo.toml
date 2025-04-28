@@ -3,6 +3,10 @@ name = "hide-titlebar"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "context_extension"
+path = "src/hide_titlebar.rs"
+
 [dependencies]
 gpui = { git = "https://github.com/zed-industries/zed" }
 # smallvec is included here for convenience, it is used by gpui when creating
